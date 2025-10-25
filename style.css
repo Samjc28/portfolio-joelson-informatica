@@ -1,0 +1,62 @@
+   
+#imgcab{
+    width: 97%;
+    height: 250px;
+    border: solid 2px rgb(11, 17, 12);
+    padding: 5px;
+    margin: 6px;
+    ;
+
+}
+
+.inicio {
+    background-color: rgb(6, 162, 201);
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.vantagens {
+background-color: rgb(156, 15, 184);
+
+}
+
+h1 {
+    padding: 15px;
+}
+
+
+h2 {
+    text-align: center;;
+}
+p {
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+em strong {
+    color: rgb(240, 236, 12);
+}
+
+#encontra {
+    font-size: 28px;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 24px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+#consertoPc{
+    width: 30%;
+    height: 30;
+    margin: 10px;
+    padding: 10px;
+}
