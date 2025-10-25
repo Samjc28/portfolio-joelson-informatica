@@ -1,0 +1,160 @@
+header{
+    border: 3px solid black;
+    background-color: aqua;
+
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+#navlogo{
+    border: 2px solid blue;
+    margin: 5px;
+    width:15%;
+    height:15%;
+}
+.menu{
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a {
+    text-transform: uppercase;
+    color: rgb(230, 10, 10);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.servicos-lista{
+    width: 940px ;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}   
+
+.servicos-lista li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    border-color:red;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0 1%x;
+    padding: auto;
+
+
+}
+.servicos-lista h2{
+    font-size: 25px;
+    color: #000;
+   font-weight: bold;
+   
+} 
+.servicos-lista img{
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: rgb(10, 10, 230);
+    text-decoration: underline;
+}
+
+.servicos-lista li:hover {
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 10px rgba(112, 203, 245, 0.1);
+    border-color: seagreen;
+}
+
+.servicos-lista h2:hover{
+    font-size: 36px;
+    color: rgb(1, 4, 145);
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* também é possivel usar um imagem de fundo 
+    no rodape utilizando o codigo: background: url("link/ endereço da imagem"  */
+}
+
+form{
+    margin: 40px 0;
+
+}
+
+form label{
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 30%;
+}
+form label, form{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+}
+
+.checkbox{
+    margin:10px;
+}
+
+.enviar{
+    background-color: rgb(0, 47, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background: #555555;
+    color: rgb(238, 229, 229);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #d31f1f;
+    padding: 8px 15px;
+    
+}
